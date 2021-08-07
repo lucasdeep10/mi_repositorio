@@ -1,0 +1,266 @@
+* {
+	margin: 0	;
+	padding: 0;
+}
+
+				/*Media queries*/
+
+	/* SmartPhone Modo Vertical */
+@media only screen and (min-width: 320px){
+}
+
+ /* SmartPhone Modo Horizontal */
+@media only screen and (min-width: 480px){
+}
+
+	/* Dispositivo pantalla pequeña */
+@media only screen and (min-width: 600px){
+}
+
+ /* Tablet 10´ Modo Vertical */
+@media only screen and (min-width: 768px){
+}
+
+  /* Tableta Hotizontal y Deskstop */
+ @media only screen and (max-width: 1024px){
+#no-mostrar {
+		display: none ;
+}}
+
+
+/* Pantalla paronamica */
+@media only screen and (min-width: 1200px){
+}
+
+		/* Menu Fijo */
+
+#MenuFijo {
+position: fixed;
+display: inline-block ;
+margin: auto;
+padding: auto;
+bottom: 91%;
+width: 100%;
+opacity: 0.95;
+z-index: 10;
+}
+
+.TextoMenu {
+display: inline-block;
+border: solid 2px red;
+margin: 5px;
+text-align: right;
+padding-right: 15px;
+width: 100%;
+left: 20px;
+font-size: 20px;
+letter-spacing: 2px;
+}
+
+.ImagenMenu {
+text-align: center;
+margin-top: 1px;
+border-radius: 90%;
+
+}
+
+
+.ImagenMenu:hover {
+height: 100px;
+width: 100px;
+}
+
+		/* Centro de pagina */
+
+#TituloPagina {
+	font-size: 50px;
+	padding: 35px;
+	margin: 35px;
+	color:rgb(105,77,29 );
+	text-shadow: 2px 2px white;
+}
+
+.CajaTitulo {
+padding: 30px;
+margin: 30px;
+font-size: 30px;
+font-family: 'roboto';
+text-align: center;
+text-shadow: 1px 1px rgb(105,77,29 );
+}
+
+.ImagenLogo {
+text-align: center;
+padding: 10px;
+margin-top: 80px;
+border-radius: 90%;
+}
+
+		/* MenuPrincipal */
+
+.ImagenesBordes {
+border-radius: 15%;
+}
+
+.CajaDiv {
+
+content: 100%;
+margin: 50px;
+padding-bottom: 200px;
+}
+
+.CajaImagen {
+
+display: inline-block;
+border: 0px;
+padding: 0px;
+border-radius: 15px;
+}
+
+.texto1 {
+display: flex;
+top: 80%;
+right: 40%;
+font-size: 30px;
+color:  #F3EDD4;
+font-family: 'Caveat', cursive;
+opacity: .7;
+}
+
+		/* Flex Footer ID */
+
+#Footer {
+display: flex;
+align-items: stretch;
+background-color: black;
+justify-content: space-around;
+}
+
+#SubMenu {
+display: flex;
+flex-direction: column;
+font-family: 'roboto', cursive;
+text-align: center;
+padding-top: 0px;
+margin-top: 0px;
+padding-left: 15px;
+font-size: 45px;
+line-height: 60px;
+}
+
+.LetraSubMenu {
+text-decoration: none;
+color: rgb(105,77,29 );
+}
+
+#DejanosTuComentario {
+text-align: center;
+padding-top: 15px;
+margin: 25px;
+font-family: 'Roboto', cursive;
+font-size: 25px;
+}
+
+#Address {
+display: flex;
+flex-wrap: nowrap;
+justify-content: center;
+text-align: center;
+font-size: 14px;
+padding: 0px;
+background: black;
+} 
+
+#Encontranos {
+margin: 5px ;
+text-align: center;
+font-family: 'Roboto', cursive;
+font-size: 20px;
+
+}
+
+.FlexFooter {
+display: inline-block;
+background-color: black;
+width: 500px;
+margin: 28px;
+text-align: center;
+}
+
+
+		/* Flex Pagina Menu Principal */
+
+#FlexEtiquetaA {
+display: inline-block;
+font-size: 35px;
+margin: 5px;
+padding: 5px;
+text-align: center;
+justify-content: center;
+line-height: 25px;
+}
+
+#CajaMenuPrincipal {
+display: flex;
+margin: 15px;
+flex-wrap: nowrap;
+align-items:center ;
+justify-content: space-around;
+}
+
+#FlexMenuPrincpial {
+display: inline-flex;
+flex-wrap: nowrap;
+text-align: center;
+margin: 15px;
+padding: 15px;
+}
+
+
+		/*Animaciones*/
+.textoanimado {
+	position: relative;
+	margin: 0;
+	line-height: 1;
+	transform: translateY(6rem);
+	animation: up 500ms linear forwards;
+	z-index: 1;
+	
+}
+
+@keyframes up {
+	
+	100% {
+		transform: translateY(0);
+}}
+
+
+
+ 		/* Grilla Grid */
+
+#grilla-grid {
+background-color: red;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+justify-items: center;
+align-items: center;
+justify-content: center;
+align-content: center;
+border: 5px solid black;
+margin: auto;
+padding: auto;
+width: auto;
+height: auto;
+}
+
+#div-margen {
+padding: 25px;
+margin: 1px;
+border: 2px solid black;
+width: auto;
+height: auto;
+content: auto;
+}
+
+
+	

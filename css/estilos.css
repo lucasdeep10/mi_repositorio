@@ -1,0 +1,92 @@
+* {
+	margin: 0	;
+	padding: 0;
+}
+#videoDeFondo {
+position: fixed;
+right: 0;
+bottom: 0;
+min-height: 100%;
+min-width: 100%;
+z-index: -10;
+
+}
+
+/* Style */
+
+body { 
+	background: rgb(60,33,0);
+	background: linear-gradient(0deg, rgba(55,33,0,1) 70%, rgba(130,72,0,1) 100%);
+	width: auto;
+	text-decoration: none;
+ }
+	
+/* Class */
+.MasaMadreCetradaIMG {
+    background-image:url();
+    background-repeat:no-repeat;
+    background-position:center center;
+}
+.LetraGrande {
+font-style: xx-small;
+}
+
+.LetraBlanca { 
+	color: #F3EDD4;
+}
+.letraMarron {
+	color: rgb(105,77,29 )
+}
+.LetraNegra {
+color: rgb(0, 0, 0);
+text-decoration: none;
+}
+.LetraMenu {
+color: black;
+text-decoration: none;
+font-size: 21px;
+}
+.LetraAmarilla {
+	color: #DBB844;
+}
+.LetraGris {
+ 	color: #A3A096;
+}
+/* ID */
+ #FondoPie {
+ 	background:  rgb(0,0,0) ;
+	bottom: 100%;
+	border: solid 2px black;
+ }
+ #LetraPie {
+	color: #F3EDD4 ; 
+ }
+ #FondoBlanco {
+background-color: #F3EDD4 ;
+ }
+ #LetraNegra {
+color: black;
+text-decoration: none;
+ }
+
+/* Familia Tipografica */
+body {
+font-family: 'Work Sans', sans-serif;;
+font-weight: normal;
+font-style: normal;
+width: auto;
+height: auto
+}
+
+/* Texto */
+.TextoCentrado {
+text-align: center;
+}
+
+.TextoDerecha {
+text-align: right;
+}
+
+.TextoEspaciado {
+letter-spacing: 5px ;
+}
